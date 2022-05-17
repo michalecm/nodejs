@@ -2,9 +2,6 @@ import * as readline from 'readline';
 import { stdin as input, stdout as output } from 'process';
 
 const rl = readline.createInterface({ input, output, terminal: true });
-const CODES = {
-  EXIT: 'exit'
-};
 
 function getReversedString(str) {
   return str.split('').reverse().join('');
