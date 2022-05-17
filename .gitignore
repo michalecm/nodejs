@@ -144,3 +144,6 @@ dist
 
 # compiled code by babel
 lib/
+
+# output files
+output/
