@@ -8,7 +8,7 @@ function getReversedString(str) {
 }
 
 function main() {
-  rl.question('Enter a string to reverse: ', (text) => {
+  rl.question('Enter a string to reverse: ', text => {
     if (text === 'exit') return rl.close();
     return rl.write(`${getReversedString(text)}\n`);
   });
