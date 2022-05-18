@@ -147,3 +147,4 @@ lib/
 
 # output files
 output/
+src/ts-out/

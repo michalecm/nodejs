@@ -10,7 +10,7 @@ function getReversedString(str) {
 function main() {
   rl.question('Enter a string to reverse: ', (text) => {
     if (text === 'exit') return rl.close();
-    else rl.write(getReversedString(text) + '\n');
+    return rl.write(`${getReversedString(text)}\n`);
   });
 }
 

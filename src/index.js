@@ -1,1 +1,1 @@
-console.log('Hell world');
+"use strict";
