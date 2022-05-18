@@ -2,6 +2,11 @@
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "outDir": "src/ts-out/",
+      // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": true,
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Projects */
